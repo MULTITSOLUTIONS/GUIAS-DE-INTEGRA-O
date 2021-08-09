@@ -1,13 +1,15 @@
 # GUIA RAPÍDO DE INTEGRAÇÃO CONSULTA NFE
 
-A consulta da NFE da MULT IT SOLUTIONS foi desenvolvida para disponibilizar 100% das notas fiscais, usadas para otimizar a emissão do CTE para as transportadoras mesmo que não sejam citadas na NFE. As buscas das NFE são realizadas em tempo real no momento da requisição dos transportador. Entre as fontes de acessos estão Secretaria da Fazenda e SERPRO (Serviço Federal de Processamento de Dados).
-Para garantir a busca em todas as fontes garantindo contingência, disponibilidade e consequentemente melhor operação as transportadoras, se faz necessário o certificado digital do transportador.
-A alta disponibilidade e serviço, do certificado digital e respectiva senha são de propriedade e uso exclusivo do transportador. Para evitar o trafego e aumentar a segurança a MULT IT SOLUTIONS aplicou as medidas:
+A consulta da NFE da MULT IT SOLUTIONS foi desenvolvida para disponibilizar 100% das notas fiscais com propósito de agilizar emissão do CTE para as transportadoras mesmo que não sejam citadas na NFE. 
+
+As buscas das NFE são realizadas em tempo real no momento da requisição dos transportador. Entre as fontes de acessos estão Secretaria da Fazenda e SERPRO (Serviço Federal de Processamento de Dados). Para a busca em todas as fontes e contingência disponiveis se faz necessário o certificado digital do transportador o que garante  alta disponibilidade, melhor operação aos transportadores e menor custo. 
+
+O certificado digital e respectiva senha são de propriedade e uso exclusivo do transportador. Para evitar o trafego e aumentar a segurança de dados tão sensiveis a MULT IT SOLUTIONS aplicou praticas seguras tais como:
 •	Utiliza protocolo de requisição segura “https”, certificado pela Amazon AWS. 
 •	Não armazena certificado de transportador;
-•	O Certificado do transportador é usando uma única vez na geração da “chave secreta“. A “chave secreta” é uma criptografia composta pelo certificado e chaves de codificação da MULT IT SOLUTIONS. Essa criptografia é de uso exclusivo da MULT IT SOLUTIONS e sua conversão é usada apenas no momento da consulta.
+•	O Certificado do transportador é usando uma única vez na geração da “chave secreta“. A “chave secreta” é uma criptografia composta pelo certificado e chaves de codificação da MULT IT SOLUTIONS. Essa criptografia é de uso exclusivo da MULT IT SOLUTIONS e sua conversão é usada apenas no momento da consulta, reforçando os cuidados com o certificado dital e seu sigilo .
 
-
+# Etapa para uso do serviço
 Etapa 1 : Solicite chave de acesso
 Entre em contato através do email contato@multit.com.br com assunto SOLICITAÇÃO CHAVE DE ACESSO e informar no corpo do email seu nome e CNPJ que receberá retorno da chave de acesso, essa chave é de uso exclusiva da empresa solicitante.
 
