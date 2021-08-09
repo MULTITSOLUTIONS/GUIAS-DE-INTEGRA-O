@@ -1,6 +1,6 @@
 # GUIA RAPÍDO DE INTEGRAÇÃO CONSULTA NFE
 
-A consulta da NFE da MULT IT SOLUTIONS foi desenvolvida para disponibilizar 100% das notas fiscais com propósito de agilizar emissão do CTE para as transportadoras mesmo que não sejam citadas na NFE. 
+A consulta de NFE da MULT IT SOLUTIONS foi desenvolvida para disponibilizar 100% das notas fiscais com propósito de agilizar emissão do CTE para as transportadoras mesmo que não sejam citadas na NFE. 
 
 As buscas das NFE são realizadas em tempo real no momento da requisição dos transportador. Entre as fontes de acessos estão Secretaria da Fazenda e SERPRO (Serviço Federal de Processamento de Dados). Para a busca em todas as fontes e contingência disponiveis se faz necessário o certificado digital do transportador o que garante  alta disponibilidade, melhor operação aos transportadores e menor custo. 
 
