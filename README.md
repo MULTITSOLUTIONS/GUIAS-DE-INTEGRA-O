@@ -19,31 +19,53 @@ Entre em contato através do email contato@multit.com.br com assunto SOLICITAÇ�
 
 Etapa 2 : Gere a chave secreta
 Acesse o webservice: https://lbdfe.multit.cloud/wsmultitconsultas/servicoweb.asmx
+
 Wsdl: https://lbdfe.multit.cloud/wsmultitconsultas/servicoweb.asmx?wsdl
+
 Selecione o web método: GeraChaveSecreta
+
 Nota: Informações de integração no próprio link. Maiores informações suporte@multit.com.br.
+
 Informe os parâmetros:
+
 CHAVECLIENTE: Chave solicitada na etapa 1.
+
 CERTIFICADOBASE64: Seu arquivo de certificado digital convertido em base 64, para suporte ou maiores detalhe entre em contato com o suporte@multit.com.br.
+
 SENHACERTIFICADO: Senha do seu certificado.
+
 O retorno será uma chave secreta que será utilizada em todos as consultas. A chave secreta reforça a segurança o trafego do certificado da conexão entre cliente - MULT IT SOLUTIONS. A MULT IT SOLUTIONS não armazena o certificado apenas faz o trafico seguro entre as fontes governamentais.
 
 Etapa 3 : Realize a consulta
+
 Acesse o webservice: https://lbdfe.multit.cloud/wsmultitconsultas/servicoweb.asmx
+
 Wsdl: https://lbdfe.multit.cloud/wsmultitconsultas/servicoweb.asmx?wsdl
+
 Selecione o web método: GetNfe
+
 Informe os parâmetros:
+
 CHAVECLIENTE: Chave solicitada na etapa 1.
+
 CHAVESECRETA: Chave gerada na etapa 2.
+
 CHAVENFE: Chave de 44 dígitos da NFE.
+
 O retorno segue o layout da NFE o qual os TMS e ERP já fazem a leitura, possibilitando fácil integração. 
 Nota: O método getnfejson, tem o mesmo proposito retornando a mesma estrutura de dados no formato Json.
 
 Etapa 4: Acompanhe seus créditos
+
 Acesse o webservice: https://lbdfe.multit.cloud/wsmultitconsultas/servicoweb.asmx
+
 Wsdl: https://lbdfe.multit.cloud/wsmultitconsultas/servicoweb.asmx?wsdl
+
 Selecione o web método: VerificaSaldo
+
 Informe os parâmetros:
+
 CHAVECLIENTE: Chave solicitada na etapa 1.
+
 A web método retorna o credito disponível e utilizado da chave cliente informada. Informações de extrato, poderão ser realizadas pelo portão de cliente. Contate suporte@multit.com.br para maiores informações.
 
