@@ -32,7 +32,7 @@ CHAVECLIENTE: Chave solicitada na etapa 1.
 
 CERTIFICADOBASE64: Seu arquivo de certificado digital convertido em base 64, para suporte ou maiores detalhe entre em contato com o suporte@multit.com.br.
 
-SENHACERTIFICADO: Senha do seu certificado.
+SENHACERTIFICADO: Senha do certificado digital.
 
 O retorno será uma chave secreta que será utilizada em todos as consultas. A chave secreta reforça a segurança o tráfego do certificado entre CLIENTE e MULT IT SOLUTIONS. A MULT IT SOLUTIONS não armazena o certificado apenas faz o trafico seguro entre as fontes governamentais.
 
