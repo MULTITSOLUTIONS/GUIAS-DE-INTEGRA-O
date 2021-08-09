@@ -42,18 +42,19 @@ Acesse o webservice: https://lbdfe.multit.cloud/wsmultitconsultas/servicoweb.asm
 
 Wsdl: https://lbdfe.multit.cloud/wsmultitconsultas/servicoweb.asmx?wsdl
 
-Selecione o web método: GetNfe
+Selecione o web método: ConsultaNfe
 
 Informe os parâmetros:
 
 CHAVECLIENTE: Chave solicitada na etapa 1.
 
-CHAVESECRETA: Chave gerada na etapa 2.
-
 CHAVENFE: Chave de 44 dígitos da NFE.
 
+CHAVESECRETA: Chave gerada na etapa 2.
+
+
 O retorno segue o layout da NFE o qual os TMS e ERP já fazem a leitura, possibilitando fácil integração. 
-Nota: O método getnfejson, tem o mesmo propósito retornando a mesma estrutura de dados no formato Json.
+Nota: O método ConsultaNfejson, tem o mesmo propósito retornando a mesma estrutura de dados no formato Json.
 
 Etapa 4: Acompanhe seus créditos
 
