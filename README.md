@@ -1,6 +1,6 @@
 # GUIA RAPÍDO DE INTEGRAÇÃO CONSULTA NFE
 
-A consulta de NFE da MULT IT SOLUTIONS foi desenvolvida com propósito de agilizar emissão do CTE processo chave nas empresas de transportes, essa agilidade é possivel pela disponibilidade de 100% das NFE mesmo nos casos que o transportador não estejam citadas na NFE . 
+A consulta de NFE da MULT IT SOLUTIONS foi desenvolvida com propósito de agilizar emissão do CTE processo chave nas empresas de transportes, essa agilidade é possivel pela disponibilidade de 100% das NFEs mesmo em casos que os transportadores não estejam citados nas NFEs. 
 
 As buscas das NFE são realizadas em tempo real no momento da requisição dos transportador, os provedeores da dados são Secretaria da Fazenda e SERPRO (Serviço Federal de Processamento de Dados), fontes seguras e confiáveis. Para a busca em todas as fontes e contingência disponiveis se faz necessário o certificado digital do transportador o que permite alta disponibilidade, melhor operação aos transportadores e menor custo. 
 
